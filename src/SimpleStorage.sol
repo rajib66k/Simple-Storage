@@ -56,7 +56,7 @@ contract SimpleStorage {
     mapping(string => uint256) public nameToFavoriteNumber;
 }
 
-// Foundry Commands
+    // Foundry Commands
 
     // to run local blockchain
     // anvil
@@ -113,3 +113,41 @@ contract SimpleStorage {
     // }
 
     // always private key have to sign transaction
+
+
+
+    // interact with smart contracts trough cli
+
+    // to get all commands
+    // cast --help
+
+    // to get all commands of send
+    // cast send --help
+
+    // to store
+    // cast sent to "inputname(type)" input --rpp-url RPC_URL --private-key PRIVATE_KEY
+    // to = contract address // type if dfined
+
+    // to call the store value
+    // cast call to "inputname(type)"
+    // we will get value in hex. so we have to convert it to dec
+
+    // deploy a contract to testnet
+    // we have to run a node to create an end point like rpc url in metamask
+
+
+
+    // verify a smart contract (foundry simple storage video 25)
+    // we can do it in etherscan (basicaly we have to add our codes to etherscan to inc. transparancy)
+
+    // format code
+    // forge fmt
+
+    // README.md
+    // # hello       // head
+    // evberjncoklw
+    // 
+    //    code
+    // 
+    // on search bar
+    // >markdown preview and click on markdown open preview to see the readme file will look like in git hub
